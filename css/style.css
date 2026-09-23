@@ -1,1 +1,50 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
 
+header{
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 24px;
+    background-color: antiquewhite;
+}
+
+footer{
+    margin-top: 24px;
+    padding: 20px;
+    text-align: center;
+    background-color: antiquewhite;
+}
+
+.intro{
+    margin: 0px 48px 24px 48px;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid black;
+}
+
+.cards-container{
+    margin: 0px 48px 24px 48px;
+    padding: 20px;
+    border: 2px solid black;
+}
+
+article{
+    background-color:mistyrose;
+    width: 100%;
+    margin-bottom: 16px;
+    padding: 20px;
+    text-align: center;
+}
+
+@media(min-width: 768px){
+
+    article{
+        display: inline-block;
+        width: 30%;
+        margin-right: 3%;
+        vertical-align: top;
+    }
+}
